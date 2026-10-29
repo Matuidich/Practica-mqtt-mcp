@@ -1,0 +1,10 @@
+.cache/
+.env
+.venv/
+config/mobile.local.json
+evidence/estabilidad-01/
+evidence/manual-01/
+evidence/preparacion-01/
+firmware/.pio/
+firmware/include/device_config.local.h
+firmware/include/mqtt_config.local.h

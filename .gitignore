@@ -1,0 +1,51 @@
+# Configuración local y credenciales; las plantillas sí se versionan.
+.env
+.env.*
+!.env.example
+!.env.*.example
+/firmware/include/config.h
+/firmware/include/device_config.local.h
+/firmware/include/mqtt_config.local.h
+/firmware/include/secrets.h
+/firmware/platformio.local.ini
+/config/*.local.*
+.codex/
+.aws/
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python: entornos, cachés, paquetes y resultados de pruebas.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+# Evidencias locales por defecto; solo se permite la captura estabilidad-02 revisada.
+/evidence/*
+!/evidence/estabilidad-02/
+/evidence/estabilidad-02/*
+!/evidence/estabilidad-02/session.json
+!/evidence/estabilidad-02/events.jsonl
+!/evidence/estabilidad-02/summary.json
+
+# PlatformIO y archivos generados.
+.pio/
+.cache/
+*.log
+
+# Configuración personal del editor y del sistema operativo.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

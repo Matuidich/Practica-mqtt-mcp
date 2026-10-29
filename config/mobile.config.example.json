@@ -1,0 +1,52 @@
+{
+  "template_note": "Referencia generada desde .env; no importar en una app concreta.",
+  "mqtt": {
+    "host": "broker.hivemq.com",
+    "port": 1883,
+    "transport": "tcp",
+    "topic_prefix": "sis234/2026/REEMPLAZAR_CON_UUID",
+    "client_id": "sis234-REEMPLAZAR_CON_UUID-movil",
+    "keepalive_s": 60,
+    "reconnect_min_delay_s": 1,
+    "reconnect_max_delay_s": 32,
+    "qos": 0,
+    "retain": false
+  },
+  "distance_widget": {
+    "type": "gauge",
+    "topic": "sis234/2026/REEMPLAZAR_CON_UUID/telemetry/distance",
+    "topic_suffix": "telemetry/distance",
+    "json_field": "distance_cm",
+    "unit": "cm",
+    "display_min": 0,
+    "display_max": 400,
+    "stale_after_s": 10
+  },
+  "led_control": {
+    "type": "independent_switches",
+    "topic": "sis234/2026/REEMPLAZAR_CON_UUID/commands/leds",
+    "topic_suffix": "commands/leds",
+    "json_field": "leds",
+    "command_id_field": "command_id",
+    "colors": [
+      "red",
+      "yellow",
+      "green"
+    ],
+    "omitted_colors": "unchanged",
+    "exclusive_requires_all_colors": true,
+    "all_off": {
+      "red": false,
+      "yellow": false,
+      "green": false
+    }
+  },
+  "led_confirmation": {
+    "topic": "sis234/2026/REEMPLAZAR_CON_UUID/state/leds",
+    "topic_suffix": "state/leds",
+    "json_field": "leds",
+    "command_id_field": "command_id",
+    "status_field": "status",
+    "expected_status": "applied"
+  }
+}

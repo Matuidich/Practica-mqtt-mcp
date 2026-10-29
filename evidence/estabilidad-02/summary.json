@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "mode": "live_mqtt_observation",
+  "measurement_status": "completed",
+  "metadata": {
+    "mode": "live_mqtt_observation",
+    "purpose": "stability",
+    "device_id": "sensor-01",
+    "requested_duration_s": 600.0,
+    "gap_s": 3.0,
+    "reference_cm": null,
+    "reference_uncertainty_cm": null,
+    "configured_interval_ms_reference_only": 1000,
+    "configured_keepalive_s_reference_only": 60,
+    "configured_reconnect_min_s_reference_only": 1,
+    "configured_reconnect_max_s_reference_only": 32,
+    "distance_topic": "sis234/2026/3a91a2d6-974c-4879-b67e-3ba4a37c201d/telemetry/distance",
+    "qos": 0,
+    "paho_mqtt_version": "2.1.0",
+    "python_version": "3.11.6",
+    "notes": "",
+    "schema_version": 1,
+    "started_utc": "2026-10-29T19:21:35.995162+00:00",
+    "monotonic_origin_s": 964879.796
+  },
+  "acceptance": "No se aplica ningún umbral de aprobación del docente.",
+  "window_start_s": 8.266000000061467,
+  "window_end_s": 608.2820000000065,
+  "actual_duration_s": 600.015999999945,
+  "valid_messages": 600,
+  "distance_messages_received": 600,
+  "unique_readings": 600,
+  "duplicate_messages": 0,
+  "rejected_messages": {},
+  "frequency_hz_whole_window": 0.999973334044517,
+  "frequency_hz_first_to_last": 0.9994010267635008,
+  "receive_interval_s": {
+    "mean": 1.000599332220459,
+    "median": 1.0,
+    "p95": 1.3590999999432825,
+    "min": 0.0470000000204891,
+    "max": 1.922000000020489,
+    "stdev_sample": 0.22051500164796917
+  },
+  "device_uptime_interval_s": {
+    "mean": 1.0,
+    "median": 1.0,
+    "p95": 1.0,
+    "min": 0.999,
+    "max": 1.001,
+    "stdev_sample": 0.0003060154978915652
+  },
+  "per_minute": [
+    {
+      "start_s": 8.266000000061467,
+      "duration_s": 60.0,
+      "unique_readings": 60,
+      "hz": 1.0
+    },
+    {
+      "start_s": 68.26600000006147,
+      "duration_s": 60.0,
+      "unique_readings": 60,
+      "hz": 1.0
+    },
+    {
+      "start_s": 128.26600000006147,
+      "duration_s": 60.0,
+      "unique_readings": 60,
+      "hz": 1.0
+    },
+    {
+      "start_s": 188.26600000006147,
+      "duration_s": 60.0,
+      "unique_readings": 60,
+      "hz": 1.0
+    },
+    {
+      "start_s": 248.26600000006147,
+      "duration_s": 60.0,
+      "unique_readings": 60,
+      "hz": 1.0
+    },
+    {
+      "start_s": 308.26600000006147,
+      "duration_s": 60.0,
+      "unique_readings": 60,
+      "hz": 1.0
+    },
+    {
+      "start_s": 368.26600000006147,
+      "duration_s": 60.0,
+      "unique_readings": 60,
+      "hz": 1.0
+    },
+    {
+      "start_s": 428.26600000006147,
+      "duration_s": 60.0,
+      "unique_readings": 60,
+      "hz": 1.0
+    },
+    {
+      "start_s": 488.26600000006147,
+      "duration_s": 60.0,
+      "unique_readings": 60,
+      "hz": 1.0
+    },
+    {
+      "start_s": 548.2660000000615,
+      "duration_s": 60.0,
+      "unique_readings": 60,
+      "hz": 1.0
+    },
+    {
+      "start_s": 608.2660000000615,
+      "duration_s": 0.015999999945051968,
+      "unique_readings": 0,
+      "hz": 0.0
+    }
+  ],
+  "silence_detection_gap_s": 3.0,
+  "long_silences": [],
+  "observer_outages": [],
+  "device_uptime_events": {},
+  "data_observed": true,
+  "frequency_scope": "Recepciones MQTT del observador; no cuenta intentos del ESP32 ni pérdida exacta QoS 0.",
+  "reconnection": []
+}

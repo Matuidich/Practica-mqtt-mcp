@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sis234-iot"
+version = "0.2.0"
+description = "Configuración y contrato local compartidos para la práctica SIS-234"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools]
+packages = ["iot_shared", "iot_mcp", "iot_simulator"]
+package-dir = {iot_shared = "iot_shared", iot_mcp = "mcp-server/iot_mcp", iot_simulator = "simulator/iot_simulator"}

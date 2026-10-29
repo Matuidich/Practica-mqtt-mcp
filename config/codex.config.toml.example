@@ -1,0 +1,11 @@
+# Plantilla de referencia: no es una configuración activa.
+# Sustituir C:/RUTA por la ruta absoluta local; no contiene credenciales.
+# Cuando exista un servidor funcional, integrar esta sección en la configuración
+# de Codex sin sobrescribir otras secciones. Mantener desactivada por ahora.
+# Fuente: https://learn.chatgpt.com/docs/extend/mcp
+
+[mcp_servers.sis234_iot]
+enabled = false
+command = "C:/RUTA/Practica-mqtt-mcp/.venv/Scripts/python.exe"
+args = ["C:/RUTA/Practica-mqtt-mcp/mcp-server/main.py"]
+cwd = "C:/RUTA/Practica-mqtt-mcp"

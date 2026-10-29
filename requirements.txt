@@ -1,0 +1,6 @@
+# Dependencias del servidor MCP. Instalación manual: .venv\Scripts\python -m pip install -r requirements.txt
+# Configuración/modelos y pruebas del gateway usan la biblioteca estándar.
+# Las pruebas de protocolo MCP requieren FastMCP y Paho; no usan el broker.
+-e .
+fastmcp==4.1.3
+paho-mqtt==2.1.0

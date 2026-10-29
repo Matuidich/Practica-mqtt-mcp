@@ -1,0 +1,21 @@
+{
+  "mode": "live_mqtt_observation",
+  "purpose": "stability",
+  "device_id": "sensor-01",
+  "requested_duration_s": 600.0,
+  "gap_s": 3.0,
+  "reference_cm": null,
+  "reference_uncertainty_cm": null,
+  "configured_interval_ms_reference_only": 1000,
+  "configured_keepalive_s_reference_only": 60,
+  "configured_reconnect_min_s_reference_only": 1,
+  "configured_reconnect_max_s_reference_only": 32,
+  "distance_topic": "sis234/2026/3a91a2d6-974c-4879-b67e-3ba4a37c201d/telemetry/distance",
+  "qos": 0,
+  "paho_mqtt_version": "2.1.0",
+  "python_version": "3.11.6",
+  "notes": "",
+  "schema_version": 1,
+  "started_utc": "2026-10-29T19:21:35.995162+00:00",
+  "monotonic_origin_s": 964879.796
+}
